@@ -1,0 +1,101 @@
+.article {
+	margin-bottom: 20px;
+}
+
+.author {
+	font-size: 14px;
+	color: #888;
+}
+
+.articles-container {
+	background-color: gray;
+	padding: 20px;
+}
+
+.articles-container h2 {
+	font-size: 24px;
+	color: #333;
+}
+
+.title {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 50;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px;
+}
+
+.articles-container .article {
+	margin-bottom: 20px;
+	padding-left: 20px;
+	list-style: none;
+}
+
+
+.articles-container .title {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 20px;
+	cursor: pointer;
+	color: black;
+}
+
+.articles-container .bloc-article,
+.articles-container .bloc-author {
+	background-color: floralwhite;
+	color: gray;
+	font-weight: 700;
+	padding: 20px;
+}
+
+.article_link {
+	cursor: pointer;
+	text-decoration: underline;
+	color: black;
+}
+
+.article_link:active {
+	color: black;
+}
+
+.articles-container a.title,
+a.author {
+	text-decoration: none;
+}
+
+.articles-container a.title:active {
+	color: floralwhite;
+}
+
+.articles-container a.author:active {
+	color: black;
+}
+
+.articles-container .author {
+	font-size: 16px;
+	font-family: 400;
+	color: white;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.articles-container .description {
+	margin-bottom: 10px;
+}
+
+.articles-container .comments {
+	margin-left: 20px;
+	list-style-type: circle;
+}
+
+.articles-container .comments li {
+	margin-bottom: 5px;
+}
+
+ul {
+	list-style-type: none;
+}
